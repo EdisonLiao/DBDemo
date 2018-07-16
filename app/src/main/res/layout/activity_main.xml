@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/green_insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="GreenInsert"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/room_insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:text="RoomInsert"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/lite_insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:text="LiteInsert"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/green_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="GreenSelect"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/room_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:text="RoomSelect"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/lite_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:text="LiteSelect"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/green_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="GreenDelete"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/room_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:text="RoomDelete"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/lite_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:text="LiteDelete"
+            android:padding="10dp"
+            android:background="@color/colorPrimary"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
